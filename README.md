@@ -1,3 +1,3 @@
-# Thesis Frontend
+# WEX REACT TS STARTER TEMPALTE
 
-This is a TypeScript-React frontend app for my diploma thesis.
+This is a TypeScript-React frontend template.
