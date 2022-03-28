@@ -1,0 +1,21 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $navbar-height;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 $default-padding;
+  background-color: $color-navbar-background;
+
+  a {
+    color: $color-navbar-text;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-text-link-hover;
+    }
+  }
+}

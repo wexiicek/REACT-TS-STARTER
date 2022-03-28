@@ -1,0 +1,32 @@
+{
+  
+  "layout": {
+    "footer" : {
+      "introduction": "Welcome to WEX STARTER TEMPLATE"
+    }
+  },
+
+  "link": {
+    "footer": {
+      "social-links": "SOCIAL NETWORKS",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+
+    "nav": {
+      "home": "Home"
+    }
+  },
+  
+  "locale": {
+    "changed": "Language changed to english."
+  },
+
+  "pages" : {
+    "home" : {
+      "header": "WEX STARTER TEMPLATE FOR TS REACT",
+      "paragraph": "Welcome!"
+    }
+  }
+}

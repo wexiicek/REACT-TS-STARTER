@@ -1,0 +1,18 @@
+$sidebar-width: 16rem;
+$default-transition: .3s all ease-in-out;
+$navbar-height: 4rem;
+$default-padding: 1rem;
+$default-padding-lg: 2rem 10rem;
+
+$color-background: #2a2e32;
+$color-text-primary: #fff;
+$color-text-link: darken($color-text-primary, 5%);
+$color-text-link-hover: darken($color-text-link, 10%);
+
+$color-navbar-background: darken($color-background, 10%);
+$color-navbar-text: #fff;
+
+$color-sidebar-overlay: rgba(0,0,0, .5);
+
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;

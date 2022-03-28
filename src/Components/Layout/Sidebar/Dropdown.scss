@@ -1,0 +1,44 @@
+@import "/src/Style/Variables.scss";
+
+.dropdown-container {
+  transition: 1s height ease-in-out;
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0;
+    text-decoration: underline;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    transition: 1s transform ease-in-out;
+
+    &::after {
+      position: absolute;
+      right: 0;
+      content: "▾";
+      transform: rotate(90deg);
+    }
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow-y: hidden;
+    padding-left: 1rem;
+  }
+
+  &.open {
+    .dropdown {
+      max-height: 100%;
+    }
+
+    button {
+      &::after {
+        transform: rotate(0deg);
+      }
+    }
+  }
+}

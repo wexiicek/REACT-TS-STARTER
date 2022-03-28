@@ -1,0 +1,16 @@
+footer {
+  padding: $default-padding;
+  background-color: $color-navbar-background;
+  transition: $default-transition;
+  width: 100%;
+  margin-top: auto;
+
+  a {
+    color: $color-text-link;
+    transition: $default-transition;
+
+    &:hover {
+      color: $color-text-link-hover;
+    }
+  }
+}

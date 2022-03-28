@@ -1,0 +1,11 @@
+@import "/src/Style/Variables.scss";
+
+._container {
+  padding: $default-padding;
+}
+
+@media only screen and (min-width: $breakpoint-lg){
+  ._container {
+    padding: $default-padding-lg;
+  }
+}

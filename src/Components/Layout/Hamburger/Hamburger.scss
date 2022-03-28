@@ -1,0 +1,54 @@
+.hamburger-container {
+  display: flex;
+  align-items: center;
+  
+  button {
+    background-color: $color-navbar-background;
+    border: 1px solid $color-navbar-text;
+    background-color: transparent;
+    border-radius: .5em;
+    padding: .3em .5em;
+    font-size: 1em;
+    display: inherit;
+    transform: scale(0.3);
+    margin-left: -2.5rem;
+    svg {
+      box-sizing: content-box;
+    }
+  }
+}
+
+.line {
+  fill: none;
+  stroke: $color-navbar-text;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}

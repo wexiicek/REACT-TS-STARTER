@@ -1,0 +1,64 @@
+@import './Variables.scss';
+
+@import '../Components/Layout/Sidebar/Sidebar.scss';
+@import '../Components/Layout/Navbar/Navbar.scss';
+@import '../Components/Layout/Footer/Footer.scss';
+@import '../Components/Layout/LocaleSwitch/LocaleSwitch.scss';
+@import './Form.scss';
+@import '../Components/Layout/Hamburger/Hamburger.scss';
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+  background-color: $color-background !important;
+  color: $color-text-primary !important;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  
+  &>* {flex:1}
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  transition: $default-transition;
+  padding: $default-padding;
+}
+
+
+.app {
+  margin-top: $navbar-height;
+  transition: $default-transition;
+
+  .vertical {
+    min-height: calc(100vh - $navbar-height);
+  }
+}
+
+@media only screen and (min-width: $breakpoint-lg){
+  .sidebar-open {
+    width: calc(100% - $sidebar-width);
+    margin-left: $sidebar-width;
+  }
+}
+
+section {
+  margin-top: 3rem;
+
+  img {
+    width: 100%;
+  }
+}

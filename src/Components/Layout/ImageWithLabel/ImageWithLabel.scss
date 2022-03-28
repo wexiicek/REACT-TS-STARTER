@@ -1,0 +1,10 @@
+$small-padding: .5rem;
+$default-margin: 1rem;
+
+.label-image {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: $small-padding;
+  margin-bottom: $default-margin;
+}

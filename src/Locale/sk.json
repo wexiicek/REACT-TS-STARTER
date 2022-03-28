@@ -1,0 +1,32 @@
+{
+  
+  "layout": {
+    "footer" : {
+      "introduction": "Vitajte vo WEX TS REACT TEMPALTE"
+    }
+  },
+
+  "link": {
+    "footer": {
+      "social-links": "Sociálne siete",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+
+    "nav": {
+      "home": "Domov"
+    }
+  },
+  
+  "locale": {
+    "changed": "Jazyk bol zmenený na slovenčinu."
+  },
+
+  "pages" : {
+    "home" : {
+      "header": "Štartovací template WEX TS REACT",
+      "paragraph": "Vitajte!"
+    }
+  }
+}
